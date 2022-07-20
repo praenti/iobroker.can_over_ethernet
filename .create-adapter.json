@@ -1,0 +1,48 @@
+{
+	"cli": true,
+	"target": "directory",
+	"adapterName": "can_over_ethernet",
+	"title": "CAN over ethernet",
+	"description": "CAN over ethernet is a protocol which is used by the C.M.I. of the Technische Alternative to communicate directly into the CAN bus layer. The protocol uses UDP packet on port 5441 to communicate between the C.M.I. and the adapter.",
+	"keywords": [
+		"UVR16x2 TA heating solar C.M.I. CAN"
+	],
+	"contributors": [
+		"praenti"
+	],
+	"expert": "yes",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [
+		"tab",
+		"custom"
+	],
+	"type": "protocols",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "push",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tabReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"i18n": "JSON",
+	"releaseScript": "no",
+	"devServer": "no",
+	"indentation": "Tab",
+	"quotes": "single",
+	"es6class": "no",
+	"authorName": "praenti",
+	"authorGithub": "praenti",
+	"authorEmail": "michael@obster.org",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"defaultBranch": "main",
+	"license": "MIT License",
+	"dependabot": "no",
+	"creatorVersion": "2.1.1"
+}

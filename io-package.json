@@ -1,0 +1,95 @@
+{
+	"common": {
+		"name": "can_over_ethernet",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "CAN over ethernet",
+		"titleLang": {
+			"en": "CAN over ethernet",
+			"de": "CAN über Ethernet",
+			"ru": "CAN через Ethernet",
+			"pt": "CAN sobre ethernet",
+			"nl": "KAN via ethernet",
+			"fr": "PEUT sur Ethernet",
+			"it": "PUÒ su ethernet",
+			"es": "PUEDE a través de ethernet",
+			"pl": "MOŻE przez Ethernet",
+			"zh-cn": "以太网上的 CAN"
+		},
+		"desc": {
+			"en": "CAN over ethernet is a protocol which is used by the C.M.I. of the Technische Alternative to communicate directly into the CAN bus layer. The protocol uses UDP packet on port 5441 to communicate between the C.M.I. and the adapter.",
+			"de": "CAN over Ethernet ist ein Protokoll, das vom C.M.I. ",
+			"ru": "CAN через Ethernet — это протокол, который используется C.M.I. ",
+			"pt": "CAN over ethernet é um protocolo que é usado pelo C.M.I. ",
+			"nl": "CAN over ethernet is een protocol dat wordt gebruikt door de C.M.I. ",
+			"fr": "CAN over ethernet est un protocole utilisé par le C.M.I. ",
+			"it": "CAN over ethernet è un protocollo utilizzato dal C.M.I. ",
+			"es": "CAN over ethernet es un protocolo utilizado por C.M.I. ",
+			"pl": "CAN over Ethernet to protokół używany przez C.M.I. ",
+			"zh-cn": "CAN over ethernet 是 C.M.I. 使用的协议。 "
+		},
+		"authors": [
+			"praenti <michael@obster.org>"
+		],
+		"keywords": [
+			"UVR16x2 TA heating solar C.M.I. CAN"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "can_over_ethernet.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/praenti/ioBroker.can_over_ethernet/main/admin/can_over_ethernet.png",
+		"readme": "https://github.com/praenti/ioBroker.can_over_ethernet/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "protocols",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"materializeTab": true,
+		"adminTab": {
+			"singleton": true,
+			"name": {
+				"en": "CAN over ethernet",
+				"de": "CAN über Ethernet",
+				"ru": "CAN через Ethernet",
+				"pt": "CAN sobre ethernet",
+				"nl": "KAN via ethernet",
+				"fr": "PEUT sur Ethernet",
+				"it": "PUÒ su ethernet",
+				"es": "PUEDE a través de ethernet",
+				"pl": "MOŻE przez Ethernet",
+				"zh-cn": "以太网上的 CAN"
+			},
+			"link": "",
+			"fa-icon": "info"
+		},
+		"supportCustoms": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
